@@ -9,9 +9,10 @@ header{
     color: #EFEDDC;
 }
 .album1_wrapper{
+    position: relative;
     width: 300px;
     height: 300px;
-    border: 1px;
+    border: 2px solid #000;
     background-color: grey;
     padding: 80px;
 }
@@ -21,10 +22,12 @@ header{
     justify-content: center;
 }
 .album1_info{
-    width: 300px;
-    height: 2;
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    width: 458px;
+    height: 25px;
+    padding: 15;
     color: white;
-    margin: 50px;
-
-    border: 1px solid #000; 
+    border: 2px solid #000; 
 }
