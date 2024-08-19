@@ -1,0 +1,30 @@
+body{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+header{
+    padding: 50px;
+    justify-content: space-between;
+    background-color: black;
+    color: #EFEDDC;
+}
+.album1_wrapper{
+    width: 300px;
+    height: 300px;
+    border: 1px;
+    background-color: grey;
+    padding: 80px;
+}
+.img{
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+}
+.album1_info{
+    width: 300px;
+    height: 2;
+    color: white;
+    margin: 50px;
+
+    border: 1px solid #000; 
+}
