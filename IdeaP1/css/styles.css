@@ -1,0 +1,33 @@
+body{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+header{
+    padding: 50px;
+    justify-content: space-between;
+    background-color: black;
+    color: #EFEDDC;
+}
+.album1_wrapper{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000;
+    background-color: grey;
+    padding: 80px;
+}
+.img{
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+}
+.album1_info{
+    position: absolute;
+    left: 0%;
+    bottom: 0;
+    width: 458px;
+    height: 25px;
+    padding: 15;
+    color: white;
+    border: 2px solid #000; 
+}
